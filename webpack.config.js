@@ -1,7 +1,10 @@
 var webpack = require('webpack');
  
 module.exports = {
-  entry: './components/main.js',
+  entry: [
+          './components/main.js',
+          './actions/actions.js'
+  ],
   output: { path: __dirname, filename: './public/bundle.js' },
   module: {
     loaders: [
