@@ -2,8 +2,11 @@ var webpack = require('webpack');
  
 module.exports = {
   entry: [
+          './model/logic.js',
           './components/main.js',
-          './actions/actions.js'
+          './components/confirm.js',
+          './actions/actions.js',
+          './actions/states.js'
   ],
   output: { path: __dirname, filename: './public/bundle.js' },
   module: {

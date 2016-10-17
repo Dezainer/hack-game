@@ -70,3 +70,14 @@ function noMoreDown(id) {
 	  	next();
 	  });
 }
+
+export function getValues(){
+	var code = [];
+
+	code.push(positOne);
+	code.push(positTwo);
+	code.push(positThree);
+	code.push(positFour);
+
+	return code;
+}
