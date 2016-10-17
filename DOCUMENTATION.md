@@ -1,17 +1,21 @@
 # Documentation
 	
 Installation
+	
+	Suposing you already have Node and NPM installed:
+
 	First, install react,
 		npm install react react-dom --save
 		
 	Then webpack,
 		npm install webpack --save-dev
-		npm install webpack-dev-server
+		npm install webpack-dev-server -g
 		
 	Then Babel,
 		npm install babel-core babel-loader babel-preset-es2015 babel-preset-react --save-dev
 
 Configuration
+
 	- Just create a webpack.config.js like the one in this project.
 	
 	In this case i separated my components in "./Components" and the index & webpack generated js in "./public"
